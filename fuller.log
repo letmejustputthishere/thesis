@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.11)  13 APR 2022 18:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.11)  13 APR 2022 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -304,10 +304,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-<graphics/grimoirelab-all-details.png, id=57, 3302.3375pt x 1640.1275pt>
+<graphics/grimoirelab-all-details.png, id=56, 3302.3375pt x 1640.1275pt>
 File: graphics/grimoirelab-all-details.png Graphic file (type png)
 <use graphics/grimoirelab-all-details.png>
-Package pdftex.def Info: graphics/grimoirelab-all-details.png  used on input line 212.
+Package pdftex.def Info: graphics/grimoirelab-all-details.png  used on input line 211.
 (pdftex.def)             Requested size: 390.0pt x 193.67851pt.
 
 
@@ -317,7 +317,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./graphics//reposenseOverview.png, id=100, 875.4306pt x 391.2216pt>
 File: ./graphics//reposenseOverview.png Graphic file (type png)
 <use ./graphics//reposenseOverview.png>
-Package pdftex.def Info: ./graphics//reposenseOverview.png  used on input line 272.
+Package pdftex.def Info: ./graphics//reposenseOverview.png  used on input line 270.
 (pdftex.def)             Requested size: 390.0pt x 174.28706pt.
  [7 <./graphics//reposenseOverview.png>] [8] [9] [10] (./fuller.lof [11])
 \tf@lof=\write4
@@ -380,12 +380,12 @@ Here is how much of TeX's memory you used:
  30078 multiletter control sequences out of 15000+600000
  478064 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,9n,76p,326b,1073s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on fuller.pdf (17 pages, 593563 bytes).
+ 70i,9n,76p,326b,1074s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on fuller.pdf (17 pages, 601049 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 322 compressed objects within 4 object streams
+ 374 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
  111 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

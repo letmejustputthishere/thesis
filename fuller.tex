@@ -139,10 +139,10 @@ focus for this tool. At the same time we want develop a framework that categoriz
 data points that are available for analysis. We might settle on the "Common Metrics" defined by
 \citet{CHAOSSCommonMetrics2022}.
 
-For now the plan is to develop a webapp where you can enter the link to a GitHub repository that
-should be analyzed. The webapp will then make calls to the GitHub GraphQL API to retrieve the data
-and visualize it using a framework like d3.js or ECharts. Ideally the user should be able to
-configure what data is being analyzed and how it should be visualized using a simple interface.
+For now the plan is to develop a webapp allowing you to enter the link for a GitHub repository you
+want to analyze. The webapp will then make calls to the GitHub GraphQL API to retrieve the data and
+visualize it using a framework like d3.js, Vega-Lite or ECharts. Ideally the user should be able to
+configure the data being analyzed and how it's visualized using a simple interface.
 
 \section{Summary of background literature and state of the art solutions}
 \label{sec:summary}
@@ -159,8 +159,8 @@ projects developed by the Apache Software Foundation. It has to be deployed manu
 configured to scan multiple different data sources like GitHub, JIRA or a mailing list. It has no
 releases, but users can try the development version. The project seems abandoned as the last commit
 to main as of writing this was 13 months ago. The configuration and setup are non trivial and
-require a good knowledge of the underlying technologies like UNIX systems, Python and Apache HTTP
-Server \citep{ApacheKibble2022}.
+require a good knowledge of the underlying technologies like UNIX, Python and Apache HTTP Server
+\citep{ApacheKibble2022}.
 
 \subsection{Augur}
 \label{sec:summary:augur}
@@ -177,23 +177,22 @@ collection workers \citep{Augur2022}.
 \label{sec:summary:gitinspector}
 
 Gitinspector is a statistical analysis tool for git repositories. It can be installed locally using
-\code{npm} or a package manager like \code{apt-get} and provides a command line utility.
-\code{Python} and \code{git} need to be present on the system, together with the repository that
-should be analyzed. It focuses on a single repository and enables users to compare distinct
-contributors. It is mainly used as a grading aid by universities. Although the project has 2.1k
-stars on GitHub, it seems abandoned, as the last commit was 2 years ago
-\citep{EjwaGitinspector2022}.
+npm or a package manager like apt-get and provides a command line utility. Python and git need to
+be present on the system, together with the repository that should be analyzed. It focuses on a
+single repository and enables users to compare distinct contributors. It is mainly used as a
+grading aid by universities. Although the project has 2.1k stars on GitHub, it seems abandoned, as
+the last commit was 2 years ago \citep{EjwaGitinspector2022}.
 
 \subsection{Frontend Repo Analyzer}
 \label{sec:summary:repoanalyzer}
 
-The Frontend Repo Analyzer is a tool that can analyze \code{git} repositories and report metrics
-about them. It supports multiple repositories and can be configured for a variety of metrics. As
-the name suggests it focuses more on repositories that contain Frontend code, it does read the
-dependencies from a \code{package.json} file. or the CSS bundle size for example. The installation
-is quite easy, as it's available for \code{npm}, but there is still some setup left to do for the
-data base which stores the results after each run and the configuration of the tool. The project
-seems to be maintained \citep{FrontendRepoAnalyzer2022}.
+The Frontend Repo Analyzer is a tool that can analyze git repositories and report metrics about
+them. It supports multiple repositories and can be configured for a variety of metrics. As the name
+suggests it focuses more on repositories that contain Frontend code, it does read the dependencies
+from a \code{package.json} file. or the CSS bundle size for example. The installation is quite
+easy, as it's available for npm, but there is still some setup left to do for the data base which
+stores the results after each run and the configuration of the tool. The project seems to be
+maintained \citep{FrontendRepoAnalyzer2022}.
 
 \subsection{Grimoire Lab}
 \label{sec:summary:grimoire}
@@ -261,11 +260,10 @@ default visualizations that are configurable. Monocle is actively developed \cit
 \label{sec:summary:reposense}
 
 RepoSense is a tool to visualize programmer activities across git repositories. You can either use
-it locally – which requires \code{Java} and \code{git} – or remotely using a service like
-\code{Netlify} or \code{GitHub Actions} to generate so called reports. A report consists of an
-interactive website and can be viewed using a browser. The reports can be customized to a degree
-using CLI flags and config files, but visualization is rather rigid. The project is actively
-maintained \citep{RepoSense2022}.
+it locally – which requires Java and git – or remotely using a service like Netlify or GitHub
+Actions to generate so called reports. A report consists of an interactive website and can be
+viewed using a browser. The reports can be customized to a degree using CLI flags and config files,
+but visualization is rather rigid. The project is actively maintained \citep{RepoSense2022}.
 
 \begin{figure}[h]
   \centering
@@ -377,7 +375,7 @@ used:
         \begin{enumerate}
           \item Svelte
           \item Tailwind
-          \item d3 | ECharts | Vega-Lite
+          \item d3 $\mid$ ECharts $\mid$ Vega-Lite
           \item Apollo Svelte
         \end{enumerate}
   \item Artifact
